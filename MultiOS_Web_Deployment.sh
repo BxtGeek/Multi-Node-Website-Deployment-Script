@@ -30,8 +30,8 @@ then
 	echo "###################################"
 	echo "Initilizaing the httpd service"
 	echo "###################################"
-	systemctl enable $SVC
-	systemctl start $SVC
+	sudo systemctl enable $SVC
+	sudo systemctl start $SVC
 	echo
 	
 	# Deploying project
@@ -78,15 +78,15 @@ else
 	echo "Installing Package"
 	echo "###################################"
 	sudo apt update
-    sudo apt install $PACKAGE -y &> /dev/null
+    	sudo apt install $PACKAGE -y &> /dev/null
 	echo
 	
 	# Initilizaing the httpd service
 	echo "###################################"
 	echo "Initilizaing the httpd service"
 	echo "###################################"
-	systemctl enable $SVC
-	systemctl start $SVC
+	sudo systemctl enable $SVC
+	sudo systemctl start $SVC
 	echo
 	
 	# Deploying project
