@@ -10,4 +10,4 @@ Purpose -> Using this Script you can deploy a static wesite in multiple node <br
 5. after that run that script and it will deploy 3 website in 3 node<br>
 
 <B>Example</B><br>
-!(https://i.imgur.com/OAhg7PY.png)
+![Multi-Node-Website-Deployment-Script](https://i.imgur.com/OAhg7PY.png)
